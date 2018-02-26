@@ -14,10 +14,13 @@ The program is written in Python3.6 and contains a Needleman-Wunsch algorithm fu
 
 ## Input Syntax
 
-The program launches by its default file name with three arguments:
-- s1: a nucleotide string variable of python class 'str'; default is 'CCC';
-- s2: a nucleotide string variable of python class 'str'; default is 'GGGG';
-- g: an indel penalty variable of python class 'int'; default is 5.
+The program launches from command line by its default file name with three arguments:
+- -s1: a nucleotide string variable of python class 'str'; default is 'CCC';
+- -s2: a nucleotide string variable of python class 'str'; default is 'GGGG';
+- -g: an indel penalty variable of python class 'int'; default is 5.
+
+Typical launching line looks like:
+argparser_Malovichko.py -s1 AGATACACA -s2 GATTACA -g 3
 
 ## Performance
 
@@ -50,6 +53,8 @@ for i in range(1,n + 1):
         match = Wmin[i - 1][j - 1] + int(seq1[j-1]!=seq2[i-1])
         Wmin[i][j] = max(deletion, insertion, match)
 ```
+
+## Output
 
 The function returns a final score value which corresponds to nm cell of the grid.
 
