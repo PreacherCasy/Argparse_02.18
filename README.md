@@ -59,4 +59,5 @@ Default indel penalty is arbitrarily set as 5 which is by far the most common ga
 
 # Acknowledgements
 Eugene Bakin from Bioinformatic Institute for Python crash course
+
 [Python for Beginners](http://www.pythonforbeginners.com/argparse/argparse-tutorial) for its useful Argparse guide
