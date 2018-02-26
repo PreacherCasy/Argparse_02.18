@@ -12,7 +12,7 @@ A Needleman-Wunsch algorithm is a **global alignment algorithm** that allows ali
 
 The program is written in Python3.6 and contains a Needleman-Wunsch algorithm function and a terminal executor.
 
-## Input Syntaxis
+## Input Syntax
 
 The program launches by its default file name with three arguments:
 - s1: a nucleotide string variable of python class 'str'; default is 'CCC';
