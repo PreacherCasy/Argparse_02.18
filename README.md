@@ -17,7 +17,7 @@ The program is written in Python3.6 and contains a Needleman-Wunsch algorithm fu
 The program launches by its default file name with three arguments:
 - s1: a nucleotide string variable of python class 'str'; default is 'CCC';
 - s2: a nucleotide string variable of python class 'str'; default is 'GGGG';
-- g: an indel penalty value variable of python class 'int'; default is 5.
+- g: an indel penalty variable of python class 'int'; default is 5.
 
 ## Performance
 
@@ -58,6 +58,6 @@ Apart from argparse library, the program also requires numpy library for eased a
 Default indel penalty is arbitrarily set as 5 which is by far the most common gap value found in the minimal score alignment algorithms. Note that is an input argument and can be set according to your needs and preferences.
 
 # Acknowledgements
-Eugene Bakin from Bioinformatic Institute for Python crash course
+Eugene Bakin from Bioinformatic Institute for Python crash course.
 
-[Python for Beginners](http://www.pythonforbeginners.com/argparse/argparse-tutorial) for its useful Argparse guide
+[Python for Beginners](http://www.pythonforbeginners.com/argparse/argparse-tutorial) for its useful Argparse guide.
