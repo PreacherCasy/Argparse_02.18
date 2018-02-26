@@ -1,6 +1,6 @@
 # Argparse_02.18
 # Description
-*A repository containing an argparse executable utility perforing a Needleman-Wunsch over two nucleotide sequences*
+*A repository containing an Unix command line executable utility perforing a Needleman-Wunsch algorithm over two nucleotide sequences*
 
 # Basic Idea
 A Needleman-Wunsch algorithm is a **global alignment algorithm** that allows aligning two nucleotide or amino acid strings one against another thus defining both similarity score and positional matches in the resulting alignment. Compared strigs comprise two axis of a comparison grid, and the algorithm leads an imaginary maze-running trace from left upper corner down to right lower corner. By default, the grid s filled with zeros, but during the alignment resolving it is filled with match/mismatch/indel score, which results in the left lower cell's final alignment score. The aim of the algorithm is to find the minimal score 'way' which stands for most parsinimous alignment.
