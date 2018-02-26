@@ -20,7 +20,8 @@ The program launches from command line by its default file name with three argum
 - -g: an indel penalty variable of python class 'int'; default is 5.
 
 Typical launching line looks like:
-argparser_Malovichko.py -s1 AGATACACA -s2 GATTACA -g 3
+
+*argparser_Malovichko.py -s1 AGATACACA -s2 GATTACA -g 3*
 
 ## Performance
 
